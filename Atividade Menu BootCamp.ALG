@@ -30,15 +30,15 @@ Inicio
       escreval("digite 3 para sair do programa")
       leia(opcao)
       se opcao = 1 entao
-      limpatela
+         limpatela
          escreval("Digite o valor de quilometro a ser convertido em metro")
          leia(quilometro)
          resultado1 <- quilometro * conversao
          escreval(quilometro , " quilometros (s) equivale  a " , resultado1 , " metro (s)")
          escreval("")
-         senao
+      senao
          se opcao = 2 entao
-         limpatela
+            limpatela
             escreval("Digite o valor do metro cubico a ser convertido em litro")
             leia(metro)
             resultado2 <- metro * conversao                                         git
